@@ -53,7 +53,7 @@ int main()
         }
     }
 
-    printf("=========d[i][j]============\n");
+    printf("=========d[i][j]============\n");   //연산 행렬
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             printf(" %d ", d[i][j]);
