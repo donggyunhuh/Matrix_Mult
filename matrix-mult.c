@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int arr[100][2]; // 2차원 행렬 선언
-int d[100][100]; // 최솟값 저장햣
+int d[100][100]; // 최솟값 저장
 
 int min(int i, int j)
 {
