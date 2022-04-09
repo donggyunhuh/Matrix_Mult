@@ -22,26 +22,51 @@ int min(int i, int j)
     return val;
 }
 
+
+int makeArray(int n)  //행렬만들기
+{
+    for (int i = 0; i < n; i++) {
+        printf("arr[%d][0]: ", i);
+        scanf("%d", &arr[i][0]);
+        printf("arr[%d][0]: ", i);
+        scanf("%d", &arr[i][1]);
+        printf("\n");
+    }
+
+    return arr[n][2];
+}
+
 int main()
 {
+    int n, minmult;
 
-    int a;           // 행렬의 개수 설정
-    scanf("%d", &a); // 행렬 수 받음
+    printf("행렬의 갯수: ");
+    scanf("%d", &n);
 
-    for (int i = 1; i <= a; i++)
-        scanf("%d %d", &arr[i][0], &arr[i][1]); // ㅁ x ㅁ  행렬 i수에 따라 받음
+    makeArray(n);
 
-    for (int i = 1; i <= a; i++)
-    {
-        int k = 1;
-        for (int j = i; j <= a; j++)
-        {
-            d[k][j] = min(k, j); // min(1,1) + min(1,2) ~ min(k, j)
+
+    for (int i = 0; i < n; i++) {
+        int k = 0;
+        for (int j = i; j < n; j++) {
+            d[k][j] = min(k, j);
             k++;
         }
     }
 
-    printf("%d\n", d[1][a]); // 최소 곱셈 값 출력
+    printf("=========d[i][j]============\n");
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            printf(" %d ", d[i][j]);
+        }
+        printf("\n");
+    }
+    printf("\n");
+
+
+    minmult = d[0][n - 1];
+
+    printf("최소 연산 횟수: %d", minmult);
 
     return 0;
 }
