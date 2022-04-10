@@ -1,4 +1,0 @@
-﻿  matrix-mult.c
-C:\Users\j2bom\source\repos\컴퓨터 알고리즘\Matrix_Mult\Matrix_Mult\Matrix_Mult\matrix-mult.c(29,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\j2bom\source\repos\컴퓨터 알고리즘\Matrix_Mult\Matrix_Mult\Matrix_Mult\matrix-mult.c(32,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  Matrix_Mult.vcxproj -> C:\Users\j2bom\source\repos\컴퓨터 알고리즘\Matrix_Mult\Debug\Matrix_Mult.exe
