@@ -26,7 +26,7 @@ int main()
 {
 
     int a;           // 행렬의 개수 설정
-    scanf("%d", &a); // 행렬 수 받음
+    scanf("%d", &a); // 행렬 수 받음.
 
     for (int i = 1; i <= a; i++)
         scanf("%d %d", &arr[i][0], &arr[i][1]); // ㅁ x ㅁ  행렬 i수에 따라 받음
