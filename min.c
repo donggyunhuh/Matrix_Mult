@@ -36,3 +36,4 @@ int min(int n)
                                 d[i][j] = temp;
                     }
                 }
+        }
