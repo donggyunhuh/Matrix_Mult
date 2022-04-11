@@ -18,7 +18,7 @@ int main()
 {
     int n, minmult;
 
-    printf("d", n);
+    printf("행렬의 갯수: ", n);
     scanf("%d", &n);
 
     makeArray(n);
