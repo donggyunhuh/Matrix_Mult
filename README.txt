@@ -1,1 +1,7 @@
-ì—°ì† í–‰ë ¬ê³± ì•Œê³ ë¦¬ì¦˜ with C
+¿¬¼Ó Çà·Ä°ö ¾Ë°í¸®Áò with C
+°³º° Ä«Åå¹æ¿¡¼­ ÄÚµåÀÇ °¢ ºÎºÐÀ» ³ª´©¾î ±¸ÇöÇß½À´Ï´Ù.
+°¢°¢ÀÇ ÄÚµå¸¦ ÇÕÃÄ matrix-mult.c ÆÄÀÏÀ» »ý¼ºÇß½À´Ï´Ù.
+ÃÖÁ¾ ÆÄÀÏÀº matrix-mult.c ÀÔ´Ï´Ù.
+¿¬»ê ¼ö Ãâ·ÂÇÏ´Â ÇÔ¼ö(main)´Â ÀÌ¼öºó ÇÐ»ý, ÃÖ¼Ú°ª ±¸ÇÏ´Â minÇÔ¼ö´Â ±èÀç¹ü, Çãµ¿±Õ ÇÐ»ýÀÌ 
+±¸Çö ÇÏ¿´½À´Ï´Ù. °¢ ÄÚµå ºñ±³ ÈÄ °¡Àå °£´ÜÇÑ Çü½ÄÀÇ ÄÚµå¸¦ Ã¤ÅÃÇß½À´Ï´Ù.
+°¨»çÇÕ´Ï´Ù. 
