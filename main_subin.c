@@ -1,28 +1,5 @@
-#include <stdio.h>
-
-int arr[100][2]; 
+int arr[100][2];
 int d[100][100];
-
-int min(int i, int j)
-{
-
-    if (i == j) 
-        return 0;
-
-    int val = 999999999; 
-    for (int k = i; k < j; k++)
-    {
-        int temp = d[i][k] + d[k + 1][j] + arr[i][0] * arr[k][1] * arr[j][1]; 
-
-        if (temp < val)
-            val = temp; 
-        else
-            val = val; 
-    }
-    return val;
-}
-
-
 
 int makeArray(int n) 
 {
@@ -41,7 +18,7 @@ int main()
 {
     int n, minmult;
 
-    printf("d" ");
+    printf("d", n);
     scanf("%d", &n);
 
     makeArray(n);
@@ -64,7 +41,7 @@ int main()
 
     minmult = d[0][n - 1];
 
-    printf("�ּ� ���� Ƚ��: %d", minmult);
+    printf("최소 연산 횟수: %d", minmult);
 
     return 0;
 }
